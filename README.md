@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto utiliza React para crear un formulario dinámico y eficiente utilizando el hook personalizado useForms. El objetivo es demostrar cómo manejar de manera sencilla y reutilizable el estado y las validaciones de un formulario en aplicaciones React.
 
-Currently, two official plugins are available:
+Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Implementación del hook personalizado useForms para gestionar el estado del formulario.
+
+Validaciones personalizables.
+
+Código limpio y modular.
+
+Tecnologías utilizadas
+
+React: Biblioteca de JavaScript para construir interfaces de usuario.
+
+useForms: Hook personalizado para gestionar formularios de manera eficiente.
