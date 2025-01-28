@@ -1,17 +1,18 @@
 # React + Vite
 
-Este proyecto utiliza React para crear un formulario dinámico y eficiente utilizando el hook personalizado useForms. El objetivo es demostrar cómo manejar de manera sencilla y reutilizable el estado y las validaciones de un formulario en aplicaciones React.
+## Formulario con React Hook Form
 
-Características
+Este proyecto es un ejemplo práctico de cómo crear y gestionar un formulario utilizando la biblioteca React Hook Form. El objetivo es demostrar cómo manejar de forma eficiente el estado, las validaciones y los datos dinámicos en un formulario.
 
-Implementación del hook personalizado useForms para gestionar el estado del formulario.
+### Características
 
-Validaciones personalizables.
+- **Gestión de formularios**: Uso del hook `useForm` para manejar estados y acciones.
 
-Código limpio y modular.
+- **Validaciones**:
+  - Validaciones requeridas (`required`).
+  - Validaciones con expresiones regulares (por ejemplo, para el email).
+  - Validaciones personalizadas (como un rango de edad).
 
-Tecnologías utilizadas
+- **Campos dinámicos**: Inclusión condicional de campos en función de las selecciones del usuario.
 
-React: Biblioteca de JavaScript para construir interfaces de usuario.
-
-useForms: Hook personalizado para gestionar formularios de manera eficiente.
+- **Valores por defecto**: Configuración inicial para simplificar el desarrollo.
